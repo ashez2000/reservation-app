@@ -13,7 +13,9 @@ type Props = {
 export default function RootLayout(props: Props) {
   return (
     <html lang="en">
-      <body>{props.children}</body>
+      <body>
+        <main className="container">{props.children}</main>
+      </body>
     </html>
   );
 }
